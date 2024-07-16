@@ -44,6 +44,7 @@
         }
         .btn:hover {
             background-color: #0056b3;
+            transform: translateY(-3px);
         }
         .btn-edit {
             background-color: #28a745;
