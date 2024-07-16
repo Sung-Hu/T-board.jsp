@@ -8,8 +8,8 @@ public interface BoardRepository {
 	// 게시판 웹 서비스를 개발
 	// CRUD
 	void addBoard(Board board);
-	void updateBoard(Board board, int principalId);
-	void deleteBoard(int id, int principalId);
+	void updateBoard(Board board);
+	void deleteBoard(int id);
 	Board getBoardById(int id);
 	List<Board> getAllBoards(int limit, int offset);
 	int getTotalBoardCount();
